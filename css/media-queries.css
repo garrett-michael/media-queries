@@ -112,7 +112,7 @@ section {
 
         & a {
             display: inline-block;
-            background: #cccccc;
+            background: none;
             width: 100%;
             padding: .5em 1em;
         }
@@ -122,6 +122,23 @@ section {
         width: 100%;
         & img {
             width: 100%;
+        }
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        padding-right: 1em;
+        & h2 {
+            margin: 1em 0 ;
+        }
+    }
+    .sub-section {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        & h2 {
+            margin: 1em 0;
         }
     }
 
