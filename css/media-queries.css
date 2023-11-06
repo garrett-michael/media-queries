@@ -53,6 +53,11 @@ nav {
         width: 100%;
         padding: 1em;
     }
+
+    & a:hover{
+        color: #064848;
+    }
+
 }
 
 .header-img {
